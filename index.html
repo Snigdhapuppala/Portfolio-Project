@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="view-port" content="width=device-width, initial-scale=1.0">
+    <title>Html-css-webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?" family="poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <body>
+    <section class="header">
+       <nav>
+           <a href="index.html"><img src="images/logo.png"/></a>
+           <div class="nav-links">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+           <ul>
+               <li><a href="">Home</a></li>
+               <li><a href="">About</a></li>
+               <li><a href="">Services</a></li>
+               <li><a href="">Careers</a></li>
+               <li><a href="">Contact Us</a></li>
+           </ul>
+           </div>
+           <i class="fa fa-chevron-circle-down" onclick="showMenu()" ></i>
+       </nav>
+       <div class="text-box">
+           <h1>World's No.1 Super Speciality Hospitals</h1>
+           <p>Types of specialized hospitals include trauma centers, rehabilitation hospitals, children's hospitals, seniors' (geriatric) hospitals, and hospitals for dealing with specific
+               <br>medical needs such as psychiatric problems (see psychiatric hospital), certain disease categories such as cardiac, oncology, or orthopedic</p>
+           <a href="" class="hero-btn">Visit Us To Know More..</a>
+       </div>
+   </section>
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Types of specialized hospitals include trauma centers, rehabilitation hospitals, children's hospitals, seniors' (geriatric) hospitals, and hospitals for dealing with specific
+            <br>medical needs such as psychiatric problems (see psychiatric hospital), certain disease categories such as cardiac, oncology, or orthopedic</p>
+        <div class="row">
+            <div class="course-col">
+               <h3>inter</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, cupiditate doloremque eum ipsum magnam nihil perferendis perspiciatis praesentium quibusdam veniam.</p>
+            </div>
+            <div class="course-col">
+                <h3>degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, cupiditate doloremque eum ipsum magnam nihil perferendis perspiciatis praesentium quibusdam veniam.</p>
+            </div>
+            <div class="course-col">
+                <h3>pg</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, cupiditate doloremque eum ipsum magnam nihil perferendis perspiciatis praesentium quibusdam veniam.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+            function showMenu(){
+                navLinks.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>
